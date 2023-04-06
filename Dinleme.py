@@ -5,8 +5,7 @@ r = sr.Recognizer()
 def dinleme(soru = False):
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source)
-        if soru:
-            print(soru)
+        if soru: print(soru)
         veri = r.listen(source)
         ses = ""
         try :
