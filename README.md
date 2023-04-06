@@ -1,11 +1,11 @@
 # Luna_Sesli_Asistan
 # **Still under development!** (Hala geliştirilme aşamasındadır!)
 
-**Run**:
+**Run("Çalıştır):**
 
     bash launcher.sh
 
-or
+or(veya)
 
     source env/bin/activate
     python3 main.py
