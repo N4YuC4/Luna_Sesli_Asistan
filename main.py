@@ -7,7 +7,7 @@ def karşılık(i,ses): #verilecek yanıtlar bu fonksiyon üzerinde tanımlanır
     if "deneme" in ses:
         print("Sistem başarılı bi şekilde çalışıyor")
     elif "arama yap" in ses:
-        arama = input("Ne aramak istiyorsunuz?") #arama = dinleme("Ne aramak istiyorsunuz?")
+        arama = dinleme("Ne aramak istiyorsunuz?")
         url = f"https://www.google.com/search?q={arama}"
         webbrowser.get().open(url)
     elif "saat kaç" in ses:
