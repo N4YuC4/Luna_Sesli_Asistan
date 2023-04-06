@@ -1,7 +1,7 @@
 # Luna_Sesli_Asistan
 # **Still under development!** (Hala geliştirilme aşamasındadır!)
 
-**Run("Çalıştır):**
+**Run(Çalıştır):**
 
     bash launcher.sh
 
